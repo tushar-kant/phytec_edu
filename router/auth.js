@@ -9,6 +9,11 @@ const router = express.Router();
 require('../db/conn');
 const User = require("../model/userSchema");
 
+// router.get('/', (req, res) => {
+//     console.log(`hello from the server routerjs`);
+//     res.send(`hello from the server routerjs`);
+ 
+// });
 
 //registration
 router.post('/register', async (req, res) => {

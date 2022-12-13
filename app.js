@@ -25,9 +25,7 @@ const middleware = (req, res, next) => {
 }
 
 
-// app.get('/', (req, res) => {
-//     res.send(`hello from the server appjs`);
-// });
+
 
 app.get('/about', middleware, (req, res) => {
     console.log(`hello about `);
