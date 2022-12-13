@@ -92,7 +92,7 @@ const Signup = () => {
                     <input type="password" className="form-control" id="password" name="password"
                         value={user.password}
                         onChange={handleInputs}
-                        id="exampleInputPassword1" />
+                         />
                 </div>
 
                 <div className="mb-3">
@@ -100,7 +100,7 @@ const Signup = () => {
                     <input type="password" className="form-control" id="cpassword" name="cpassword"
                         value={user.cpassword}
                         onChange={handleInputs}
-                        id="exampleInputPassword1" />
+                        />
                 </div>
 
 
